@@ -1,0 +1,2 @@
+   @RequestMapping("assignRole.html")
+    @ResponseBody
