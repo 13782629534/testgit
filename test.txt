@@ -1,0 +1,2 @@
+   Map<String,String> data = new HashMap<>();
+        boolean flag = this.userService.assignRoleByUserId(userId, roleArray);
