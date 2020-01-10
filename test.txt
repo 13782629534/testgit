@@ -2,5 +2,7 @@ if (flag){
             data.put("msg","success");
         }else {
             data.put("msg","faliure");
-        }
+       }
         return data;
+   Map<String,String> data = new HashMap<>();
+        boolean flag = this.userService.assignRoleByUserId(userId, roleArray);
