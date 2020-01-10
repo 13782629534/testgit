@@ -1,0 +1,6 @@
+if (flag){
+            data.put("msg","success");
+        }else {
+            data.put("msg","faliure");
+        }
+        return data;
